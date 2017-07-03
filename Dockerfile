@@ -20,3 +20,5 @@ COPY . /blackbird
 WORKDIR /blackbird
 
 RUN make -B
+
+ENTRYPOINT ["blackbird"]
